@@ -1,0 +1,107 @@
+body {
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#player-heading {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#main-container {
+    display: flex;
+    flex-flow: column;
+}
+
+#column-selector {
+    align-self: center;
+    display: flex;
+    width: 490px;
+    height: 70px;
+    margin: 10px 0;
+}
+
+#board-container {
+    display: flex;
+    width: 490px;
+    height: 420px;
+    align-self: center;
+}
+
+#player1, #player2 {
+    display: flex;
+    flex-flow: column;
+}
+
+#player1-token {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    
+}
+
+#player2-token {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    align-self: flex-end;
+}
+
+#reset-button {
+    align-self: center;
+    margin-top: 40px;
+    border: solid lightblue;
+    padding: 10px;
+    background-color: lightcoral;
+    color: whitesmoke;
+}
+
+#reset-button:hover {
+    box-shadow: 2px 2px 5px grey;
+    cursor: pointer;
+}
+
+.selector {
+    flex-grow: 1;
+    border-radius: 50%;
+    border: solid thin;
+    margin: 2px;
+}
+
+.column {
+    /* border: solid thin; */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 105, 255);
+}
+
+.disc {
+    border-radius: 50%;
+    border: solid thin;
+    flex-grow: 1;
+    background-color: white;
+    margin: 2px;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.red-selector:hover {
+    background-color: red;
+}
+
+.black-selector:hover {
+    background-color: black;
+}

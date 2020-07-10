@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Connect Four</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="player-heading">
+            <div id="player1">Player 1 <div id="player1-token"></div></div>
+            <div id="message">Player 1's Turn</div>
+            <div id="player2">Player 2 <div id="player2-token"></div></div>
+        </div>
+
+        <div id="column-selector">
+            <div class="selector red-selector" id="selector1"></div>
+            <div class="selector red-selector" id="selector2"></div>
+            <div class="selector red-selector" id="selector3"></div>
+            <div class="selector red-selector" id="selector4"></div>
+            <div class="selector red-selector" id="selector5"></div>
+            <div class="selector red-selector" id="selector6"></div>
+            <div class="selector red-selector" id="selector7"></div>
+        </div>
+
+        <div id="board-container">
+            <div class="column" id="column1">
+                <div class="disc" id="1-1"></div>
+                <div class="disc" id="2-1"></div>
+                <div class="disc" id="3-1"></div>
+                <div class="disc" id="4-1"></div>
+                <div class="disc" id="5-1"></div>
+                <div class="disc" id="6-1"></div>
+            </div>
+            <div class="column" id="column2">
+                <div class="disc" id="1-2"></div>
+                <div class="disc" id="2-2"></div>
+                <div class="disc" id="3-2"></div>
+                <div class="disc" id="4-2"></div>
+                <div class="disc" id="5-2"></div>
+                <div class="disc" id="6-2"></div>
+            </div>
+            <div class="column" id="column3">
+                <div class="disc" id="1-3"></div>
+                <div class="disc" id="2-3"></div>
+                <div class="disc" id="3-3"></div>
+                <div class="disc" id="4-3"></div>
+                <div class="disc" id="5-3"></div>
+                <div class="disc" id="6-3"></div>
+            </div>
+            <div class="column" id="column4">
+                <div class="disc" id="1-4"></div>
+                <div class="disc" id="2-4"></div>
+                <div class="disc" id="3-4"></div>
+                <div class="disc" id="4-4"></div>
+                <div class="disc" id="5-4"></div>
+                <div class="disc" id="6-4"></div>
+            </div>
+            <div class="column" id="column5">
+                <div class="disc" id="1-5"></div>
+                <div class="disc" id="2-5"></div>
+                <div class="disc" id="3-5"></div>
+                <div class="disc" id="4-5"></div>
+                <div class="disc" id="5-5"></div>
+                <div class="disc" id="6-5"></div>
+            </div>
+            <div class="column" id="column6">
+                <div class="disc" id="1-6"></div>
+                <div class="disc" id="2-6"></div>
+                <div class="disc" id="3-6"></div>
+                <div class="disc" id="4-6"></div>
+                <div class="disc" id="5-6"></div>
+                <div class="disc" id="6-6"></div>
+            </div>
+            <div class="column" id="column7">
+                <div class="disc" id="1-7"></div>
+                <div class="disc" id="2-7"></div>
+                <div class="disc" id="3-7"></div>
+                <div class="disc" id="4-7"></div>
+                <div class="disc" id="5-7"></div>
+                <div class="disc" id="6-7"></div>
+            </div>
+        </div>
+        <div id="reset-button">RESET BOARD</div>
+    </div>    
+    <script src="main.js"></script>
+</body>
+</html>
